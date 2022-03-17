@@ -6,9 +6,13 @@ import org.junit.jupiter.api.Test
  * @modified By:
  *
  */
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
 class PrintTest {
     @Test
     fun testPrint() {
         println("zzzzzz")
+        print(sum(3,4))
     }
 }
