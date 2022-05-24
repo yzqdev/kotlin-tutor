@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test
  */
 class Util {
     val map = mapOf("a" to 1, "b" to 2, "c" to 3)
-    val list = listOf(1, 2, 3)
+    private val list = listOf(1, 2, 3)
     @Test
     fun testMap(){
         map.forEach {
